@@ -35,84 +35,76 @@
     <FLASHsize>128k</FLASHsize>
   </PROCESSOR>
   <PATHS>
-    <LinkerCommandFile>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
+    <LinkerCommandFile>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
     <IncludePaths>
-      <Path>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\</Path>
-      <Path>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\IO_Map\</Path>
-      <Path>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Sources\</Path>
-      <Path>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\</Path>
+      <Path>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\</Path>
+      <Path>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\IO_Map\</Path>
+      <Path>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Sources\</Path>
+      <Path>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\</Path>
     </IncludePaths>
     <SourceCodePaths>
-      <Path>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\</Path>
-      <Path>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Project_Settings\Startup_Code\</Path>
-      <Path>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Sources\</Path>
+      <Path>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\</Path>
+      <Path>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Project_Settings\Startup_Code\</Path>
+      <Path>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Sources\</Path>
     </SourceCodePaths>
   </PATHS>
   <FILES>
     <GeneratedCs>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\AD1.c</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\AS1.c</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\AdcLdd1.c</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\Cpu.c</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\DMA1.c</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\PE_LDD.c</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\PWM1.c</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\PwmLdd1.c</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\RxBuf.c</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\TU1.c</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\TU2.c</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\Vectors.c</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Project_Settings\Startup_Code\__arm_end.c</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Project_Settings\Startup_Code\__arm_start.c</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Sources\Events.c</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Sources\UART.c</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Sources\main.c</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Sources\sa_mtb.c</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\AD1.c</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\AS1.c</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\AdcLdd1.c</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\Cpu.c</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\DMA1.c</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\PE_LDD.c</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\RxBuf.c</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\Vectors.c</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Project_Settings\Startup_Code\__arm_end.c</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Project_Settings\Startup_Code\__arm_start.c</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Sources\Events.c</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Sources\UART.c</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Sources\main.c</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Sources\sa_mtb.c</PathName>
     </GeneratedCs>
     <GeneratedHs>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\AD1.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\AS1.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\AdcLdd1.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\Cpu.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\DMA1.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\IO_Map.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\PE_Const.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\PE_Error.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\PE_LDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\PE_Types.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\PWM1.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\PwmLdd1.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\RxBuf.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\TU1.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Generated_Code\TU2.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Project_Headers\bme.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Project_Settings\Startup_Code\runtime_configuration.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Sources\Events.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Sources\UART.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Sources\data.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\IO_Map\MKL25Z4.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\ADC_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\CMP_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\COP_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\DAC_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\DMAMUX_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\DMA_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\FTFA_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\GPIO_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\I2C_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\LPTMR_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\MCM_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\PDD_Types.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\PIT_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\PORT_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\RTC_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\SIM_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\SPI_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\SysTick_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\TPM_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\UART0_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\UART_PDD.h</PathName>
-      <PathName>C:\Users\Beartooth\Documents\24-channel sensor KL25z and C\UART_24ch_PWMdutyCycle\Static_Code\PDD\USB_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\AD1.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\AS1.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\AdcLdd1.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\Cpu.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\DMA1.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\IO_Map.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\PE_Const.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\PE_Error.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\PE_LDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\PE_Types.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Generated_Code\RxBuf.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Project_Headers\bme.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Project_Settings\Startup_Code\runtime_configuration.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Sources\Events.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Sources\UART.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Sources\data.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\IO_Map\MKL25Z4.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\ADC_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\CMP_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\COP_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\DAC_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\DMAMUX_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\DMA_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\FTFA_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\GPIO_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\I2C_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\LPTMR_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\MCM_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\PDD_Types.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\PIT_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\PORT_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\RTC_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\SIM_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\SPI_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\SysTick_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\TPM_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\UART0_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\UART_PDD.h</PathName>
+      <PathName>C:\Users\Beartooth\Documents\12-channel-kl25z-voltmeter\UART_24ch_PWMdutyCycle\Static_Code\PDD\USB_PDD.h</PathName>
     </GeneratedHs>
   </FILES>
   <OPTIONS>

@@ -20,7 +20,7 @@ namespace Battery_charger_tester_gui
         delegate void SetTextCallback(Label label, String text);
         delegate void displayAndButtonDelegate();
         delegate void textboxDelegate(String input);
-       
+
         Boolean logstartClicked = false;
 
 
@@ -70,39 +70,19 @@ namespace Battery_charger_tester_gui
         // method to invoke to  update labels and log files, and update color of logging button
         public void dataAndButton()
         {
-            if (InvokeRequired)
-            {
-                form1.BeginInvoke(new displayAndButtonDelegate(displaysAndButtonUpdate));
-            }
+            if (InvokeRequired) form1.BeginInvoke(new displayAndButtonDelegate(displaysAndButtonUpdate));
             else displaysAndButtonUpdate();
         }
         private void displaysAndButtonUpdate()
         {
-            if (startLogging.BackColor == Color.DarkGreen)
-            {
-                startLogging.BackColor = Color.LightGreen;
-            }
-            else
-            {
-                startLogging.BackColor = Color.DarkGreen;
-            }
+            if (startLogging.BackColor == Color.DarkGreen) startLogging.BackColor = Color.LightGreen;
+            else startLogging.BackColor = Color.DarkGreen;
             Boolean updated = false;
             updated = refreshAllData();
-            if (updated)
-            {
-
-            }
+            if (updated & dataStorage.getVerbosity()) appendToRichTextBox1("Sucessfully updated labels.");
             else
             {
-                /* tell syslog that data was NOT updated properly */
-                try
-                {
-                    dataLogger.writeToLogFile(0, "Failed to update logs at " + DateTime.Now.ToString("h:mm:ss tt") + "\r");
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
+                dataLogger.writeToLogFile(0, "Failed to update logs at " + DateTime.Now.ToString("h:mm:ss tt") + "\r");
                 appendToRichTextBox1("Failed to update logs at " + DateTime.Now.ToString("h:mm:ss tt") + "\r");
             }
         }
@@ -110,14 +90,8 @@ namespace Battery_charger_tester_gui
         // updates the text in richTextBox1 with a string input
         public void appendToRichTextBox1(string input)
         {
-            if (InvokeRequired)
-            {
-                richTextBox1.BeginInvoke(new textboxDelegate(appendToRichTextBox1), new object[] { input });
-            }
-            else
-            {
-                richTextBox1.AppendText(input);
-            }
+            if (InvokeRequired) richTextBox1.BeginInvoke(new textboxDelegate(appendToRichTextBox1), new object[] { input });
+            else richTextBox1.AppendText(input);
         }
 
         // sets the text of a label
@@ -369,7 +343,7 @@ namespace Battery_charger_tester_gui
                 appendToRichTextBox1(ex.Message);
             }
             /* update background colors for boxes that should be within certain ranges */
-            
+
             return true;
         }
     }

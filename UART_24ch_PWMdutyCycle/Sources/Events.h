@@ -37,12 +37,8 @@
 #include "DMA1.h"
 #include "AS1.h"
 #include "RxBuf.h"
-#include "PWM1.h"
-#include "PwmLdd1.h"
-#include "TU1.h"
 #include "AD1.h"
 #include "AdcLdd1.h"
-#include "TU2.h"
 #include "UART.h"
 
 #ifdef __cplusplus
