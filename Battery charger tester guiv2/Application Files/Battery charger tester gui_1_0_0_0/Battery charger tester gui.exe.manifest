@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Battery charger tester gui.exe" version="1.0.0.0" publicKeyToken="0dcebffc3b29526d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Battery charger tester gui" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Battery charger tester gui.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Battery charger tester gui.exe" size="19944">
+      <assemblyIdentity name="Battery charger tester gui" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lyo5/Ipb12RlOKzRE2eL91xzrL/1UPhm0slCCR2T87g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Battery charger tester gui.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Beartooth-PC\Beartooth" issuerKeyHash="362171c672deedebc731294e924bbd6eee27013f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NxKwBOV/IKH/FfKKF5jOjVME8pI20khoFUg6YwAMrMU=</DigestValue></Reference></SignedInfo><SignatureValue>hzvltPPb7J4Ol5huUyITk+OspzZ1JK4R38lkJDY1DboAl104ERuYwgWgoza2Gr3xSt2weFTr3MKxiRXfoFNtv5Zla6KPoV/aGCYR8i1tjIpQejXc+KNg8uoOxdoo3XWNUnVy2MmKb/J3lBD4ARewjznHlKWFrMCivvWnSquqJoE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>suxokzRliovL0nmGgD3C1zA5s/Xx6vDhCdysS/cPtCI87bz5HeDtgGp6kbXmbLweuGzqixyTPiIwQlQkDt5cz/Z2Q8WPdnbdeUOaklqpiFzm0RsTf63as69k1Ho8s6uuFVABvXs7FFfN7NZheVs51bgb0yZ7WSg0gWptzG9y0UE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c5ac0c00633a48156848d23692f204538dce98178af215ffa1207fe504b01237" Description="" Url=""><as:assemblyIdentity name="Battery charger tester gui.exe" version="1.0.0.0" publicKeyToken="0dcebffc3b29526d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Beartooth-PC\Beartooth</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GbLXATLYBWcZjTP0Gw5XdB2HC+G4pp7eZcqvysynkIg=</DigestValue></Reference></SignedInfo><SignatureValue>dU+Uwy0DO2LlvDYThQo5oJwS4HJG8dFQPTcabeD5f1nOWCYkn+i0H1aTx04zV7C6vj2+/qkCiyBSidKhO0QdVEYajDtS7fvICOM9pg5cawms9p+Z7CxUxd8t/TU26YPi0dCHYKPX593shbrA0xFfHwYhE4LTfi06ip927JTCPTU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>suxokzRliovL0nmGgD3C1zA5s/Xx6vDhCdysS/cPtCI87bz5HeDtgGp6kbXmbLweuGzqixyTPiIwQlQkDt5cz/Z2Q8WPdnbdeUOaklqpiFzm0RsTf63as69k1Ho8s6uuFVABvXs7FFfN7NZheVs51bgb0yZ7WSg0gWptzG9y0UE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQSi1lBTutlaJNVuLylX1veDANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwAQgBlAGEAcgB0AG8AbwB0AGgALQBQAEMAXABCAGUAYQByAHQAbwBvAHQAaDAeFw0xNTA1MTUyMTQwNTdaFw0xNjA1MTUwMzQwNTdaMDcxNTAzBgNVBAMeLABCAGUAYQByAHQAbwBvAHQAaAAtAFAAQwBcAEIAZQBhAHIAdABvAG8AdABoMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCy7GiTNGWKi8vSeYaAPcLXMDmz9fHq8OEJ3KxL9w+0IjztvPkd4O2AanqRteZsvB64bOqLHJM+IjBCVCQO3lzP9nZDxY92dt15Q5qSWqmIXObRGxN/rdqzr2TUejyzq64VUAG9ezsUV83s1mF5WznVuBvTJntZKDSBam3Mb3LRQQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAANfRUjw+1Ki9g3ZD/nSCulBDRXxBe2BdDx3HnKwdtMu51/wlQFaFy0r5FlsRpUImMAL0eAkE9nZ2OefxF+/FxdYdPkcWgYyRtObYFLRwOvtdd+qIP96LLGMEKvI8Z59oU4ru5O4UM+sPahpBUMtP8sVYVMfGyGUqRxqllpPQvNl</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
