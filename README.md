@@ -12,3 +12,12 @@ To use:
 		The variables for current multipliers, timeouts, and such are in DataStorage class
 		and connectionManager class.
 .
+Channel 0: IN voltage: Port E20
+Channel 1: USB IN voltage: Port E21
+Channel 2: Battery voltage: Port E22
+Channel 3: System voltage: Port E23
+Channels 4-7 are displayed as currents, must use the current monitor module.
+Channel 4: IN current: Port E30
+Channel 5: USB current: Port B0
+Channel 6: Battery current: Port B1
+Channel 7: System current: Port B2
